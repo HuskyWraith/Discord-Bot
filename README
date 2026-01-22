@@ -1,0 +1,27 @@
+#Discord Moderation Bot
+
+Python Discord bot built with 'discord.py' featuring basic moderation and commands.
+
+##Features
+-Profanity Filter (user warning + message deletion)
+-Welcome message on member join
+-Role utilities (assign/remove)
+-Role-gated commands
+-Simple poll command with reactions (mock poll in Discord)
+
+##Commands
+- '!hello' - Greeting 
+- '!assign' - Assign a configured role (default: 'agent')
+- '!remove' - Remove the configured role
+- '!agent' - Role-gated command
+- '!dm' - Send DM
+- '!reply' - Replies to your DM
+- '!poll <questions>' - Create a yes/no poll
+
+##Setup
+1. Create a Discord Bot and invite it to your server
+2. Create a '.env' file in the project root
+3. Install dependencies:
+  pip install -r requirements.txt
+4 Run the bot:
+  python main.py
